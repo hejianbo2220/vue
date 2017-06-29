@@ -1,4 +1,4 @@
-# study-vue-router
+# study-vue
 
 > A Vue.js project
 
