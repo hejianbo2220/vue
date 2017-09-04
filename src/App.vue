@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-    <h1 class="title"><a href="#/">开发组件库</a></h1>
+    <h1 class="title"><a href="#/">Study Vue</a></h1>
     <router-view></router-view>
   </div>
 </template>

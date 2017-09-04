@@ -6,6 +6,8 @@ import index from '@/pages/index'
 import pageBtn from '@/pages/pageBtn'
 import pageTab from '@/pages/pageTab'
 import pageList from '@/pages/pageList'
+import chart from '@/pages/chart'
+import vuex from '@/pages/vuex'
 
 Vue.use(Router)
 
@@ -16,6 +18,7 @@ export default new Router({
     //   name: 'hello',
     //   component: Hello
     // }
+
     {
       path: '/',
       name: 'index',
@@ -35,6 +38,16 @@ export default new Router({
       path: '/list',
       name: 'list',
       component: pageList
+    },
+    {
+      path: '/chart',
+      name: 'chart',
+      component: chart
+    },
+    {
+      path: '/vuex',
+      name: 'vuex',
+      component: vuex
     }
   ]
 })

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <tab v-for="item in tab" key="index" :tab="item" @tabClick="pageTabClick(item)"></tab>
+    <tab v-for="(item, index) in tab" :key="index" :tab="item" @tabClick="pageTabClick(item)"></tab>
   </div>
 </template>
 

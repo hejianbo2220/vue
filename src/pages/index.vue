@@ -9,6 +9,12 @@
     <li>
       <a href="#/list">列表</a>
     </li>
+    <li>
+      <a href="#/chart">Chart</a>
+    </li>
+    <li>
+      <a href="#/vuex">vuex</a>
+    </li>
   </ul>
 </template>
 
@@ -20,12 +26,12 @@ export default {
 
 <style scoped>
 .nav > li{
-  width: 32%;
+  width: 22%;
   height: 100px;
   float: left;
-  margin-left: 2%;
+  margin: 0 0 20px 4%;
 }
-.nav > li:first-child{
+.nav > li:nth-child(4n + 1){
   margin-left: 0;
 }
 .nav a{
