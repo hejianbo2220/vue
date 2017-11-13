@@ -15,6 +15,9 @@
     <li>
       <a href="#/vuex">vuex</a>
     </li>
+    <li>
+      <a href="#/linkage">联动</a>
+    </li>
   </ul>
 </template>
 

@@ -8,6 +8,7 @@ import pageTab from '@/pages/pageTab'
 import pageList from '@/pages/pageList'
 import chart from '@/pages/chart'
 import vuex from '@/pages/vuex'
+import linkage from '@/pages/linkage'
 
 Vue.use(Router)
 
@@ -48,6 +49,11 @@ export default new Router({
       path: '/vuex',
       name: 'vuex',
       component: vuex
+    },
+    {
+      path: '/linkage',
+      name: 'linkage',
+      component: linkage
     }
   ]
 })

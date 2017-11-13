@@ -1,22 +1,25 @@
 <template>
   <div>
-    <h1>Shopping Cart Example</h1>
-    <hr>
-    <h2>Products</h2>
-    <product-list></product-list>
-    <hr>
-    <!-- <cart></cart> -->
+    <p>{{count}}</p>
+    <btn @btnClick="increment" text="+1"></btn>
   </div>
 </template>
 
 <script>
-import productList from '@/components/productList'
-// import cart from '@/components/cart'
+import {mapState} from 'vuex'
+import btn from '@/components/btn'
 export default{
   name: 'vuex',
   components: {
-    productList
-    // cart
+    btn
+  },
+  computed: mapState([
+    'count'
+  ]),
+  methods: {
+    increment () {
+      this.$store.commit('increment')
+    }
   }
 }
 </script>
